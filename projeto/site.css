@@ -3,12 +3,14 @@ h1 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 p {
     text-align: justify;
     font-family: "Crimson Text", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1, h2 { /*Aplica o estilo nos elementos h1 e h2*/
@@ -17,20 +19,42 @@ h1, h2 { /*Aplica o estilo nos elementos h1 e h2*/
 body {
     font-family: "Crimson Text", serif;
     background-color: #F2FFFC;
+    line-height: 1.5;
    /* font-size: 120%;/*Aumentar a fonte da págian toda, aumenta em 20% */
 }
 
 main blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 
 main h1 {
         background-color: #851944;
+        margin: 0;
+        padding: 25px;
+        border-bottom: 10px solid #000;
+        font-size: 60px;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
+}
+
+aside h1 {
+    margin: 25px;
+    font-size: 30px;
 }
 
 nav a{
@@ -40,4 +64,59 @@ nav a{
 footer {
     background-color: #000000; 
     color: #F2FFFC;
+}
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+
+}
+
+blockquote,
+aside,
+footer {
+    padding: 20px;
+}
+
+main div{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pause {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    width: 5px;
+    height: 30px;
+}
+
+.triangulo {
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+.borboleta {
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
