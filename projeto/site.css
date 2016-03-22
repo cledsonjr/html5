@@ -44,6 +44,7 @@ main h1 {
         padding: 25px;
         border-bottom: 10px solid #000;
         font-size: 60px;
+        text-transform: uppercase;
 }
 
 aside {
@@ -60,11 +61,10 @@ aside h1 {
 nav a{
     color: #F2FFFC;
 }
-
+/*
 footer {
-    background-color: #000000; 
     color: #F2FFFC;
-}
+}*/
 main a {
     color: #851944;
 }
@@ -75,6 +75,16 @@ aside a {
     text-decoration: none;
 
 }
+.icones-sociais li {
+    display: inline-block;
+}
+
+/*
+aside nav li{
+    display: block;
+}
+*/
+
 
 blockquote,
 aside,
@@ -82,7 +92,13 @@ footer {
     padding: 20px;
 }
 
-main div{
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.conteudo{
     width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -119,4 +135,19 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
